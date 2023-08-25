@@ -6,8 +6,7 @@
     <title>Binar Car Rental</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/Styles.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.them.default.min.css">
+
 </head>
 <body class="d-flex flex-column">
     <!-- start navbar section -->
@@ -198,56 +197,73 @@
     <!-- End Why Us Section -->
     
     <!-- Strat Testimonial section -->
-      <!-- <section id="testimonial" class="section-testimonial at-lg-5 pt-lg-5">
-        <div class="testimonial-heading text-center"> <h2>Testimonial</h2>
-          <p>Berbagai review positif dari para pelanggan kami</p> 
+      <section id="testimonial" class="section-testimonial at-lg-5 pt-lg-5">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="card-testimonial row">
+                <div class="col-3 align-self-center">
+                  <img class="author-ing" src="images/img_photo (1).png" alt="" /> 
+                </div>
+                <div class="col-9 review">
+                  <img class="rate-ing" src="images/Rate.png" alt="" />
+                  <p class="text-review">
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+                  </p>
+                  <p class="author">John Dee 32, Bromo</p>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="card-testimonial row">
+                <div class="col-3 align-self-center">
+                  <img class="author-ing" src="images/img_photo (1).png" alt="" /> 
+                </div>
+                <div class="col-9 review">
+                  <img class="rate-ing" src="images/Rate.png" alt="" />
+                  <p class="text-review">
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+                  </p>
+                  <p class="author">John Dee 32, Bromo</p>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-testimonial row">
+                <div class="col-3 align-self-center">
+                  <img class="author-ing" src="images/img_photo (1).png" alt="" /> 
+                </div>
+                <div class="col-9 review">
+                  <img class="rate-ing" src="images/Rate.png" alt="" />
+                  <p class="text-review">
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+                  </p>
+                  <p class="author">John Dee 32, Bromo</p>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="owl-carousel owl-theme">
-          <div class="item">
-            <div class="card-testimonial row">
-              <div class="col-3 align-self-center">
-                <img class="author-ing" src="images/img_photo (1).png" alt="" /> 
-              </div>
-              <div class="col-9 review">
-                <img class="rate-ing" src="images/Rate.png" alt="" />
-                <p class="text-review">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-                </p>
-                <p class="author">John Dee 32, Bromo</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="card-testimonial row">
-              <div class="col-3 align-self-center">
-                <img class="author-ing" src="images/img_photo (1).png" alt="" /> 
-              </div>
-              <div class="col-9 review">
-                <img class="rate-ing" src="images/Rate.png" alt="" />
-                <p class="text-review">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-                </p>
-                <p class="author">John Dee 32, Bromo</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="card-testimonial row">
-              <div class="col-3 align-self-center">
-                <img class="author-ing" src="images/img_photo (1).png" alt="" /> 
-              </div>
-              <div class="col-9 review">
-                <img class="rate-ing" src="images/Rate.png" alt="" />
-                <p class="text-review">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-                </p>
-                <p class="author">John Dee 32, Bromo</p>
-              </div>
-            </div>
-          </div>
-        </section> -->
+        </section>
     <!-- End Testimonial section -->
 
     <!-- Start Sewa mobil -->
@@ -387,37 +403,6 @@
 
    
 </body>
-
-<!-- script owl carousel Jquery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js">
-  $(".owl-carousel").owlCarousel({
-    nav: true,
-    navText: [
-      "<img src='images/img_photo (1).png'>",
-      "<img src='images/img_photo (1).png'>",
-    ],
-    dots: false,
-    stagePadding: 30,
-    center: true,
-    loop: true,
-    margin: 10,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 1,
-      },
-      1000: {
-        items: 2,
-      },
-    },
-  });
-</script>
-<script src="lokasi_anda/jquery.min.js"></script>
-<script src="lokasi_anda/owl.carousel.min.js"></script>
-
-
 <!-- Script cdn bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </html>
@@ -425,3 +410,17 @@
 
 
 <!-- mey -->
+<!-- <div class="item">
+  <div class="card-testimonial row">
+    <div class="col-3 align-self-center">
+      <img class="author-ing" src="images/img_photo (1).png" alt="" /> 
+    </div>
+    <div class="col-9 review">
+      <img class="rate-ing" src="images/Rate.png" alt="" />
+      <p class="text-review">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      </p>
+      <p class="author">John Dee 32, Bromo</p>
+    </div>
+  </div>
+</div> -->

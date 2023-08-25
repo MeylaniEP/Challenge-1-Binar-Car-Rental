@@ -1,11 +1,4 @@
 /* Global styles */
-.btn-black {
-    background-color: black; /* Mengatur warna latar belakang menjadi hitam */
-    color: black; /* Mengatur warna teks menjadi putih agar terlihat dengan baik pada latar belakang hitam */
-}
-.navbar{
-    background-color: #F1F3FF;
-}
 nav ul li a { 
     white-space: nowrap; 
   } 

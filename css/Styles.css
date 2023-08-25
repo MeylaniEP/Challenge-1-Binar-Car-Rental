@@ -1,4 +1,13 @@
 /* Global styles */
+nav ul li a { 
+    white-space: nowrap; 
+  } 
+   
+nav .register-button { 
+    background-color: #5cb85f; 
+  }
+
+  
 .fs-1-5 {
     font-size: 1.5em;
     font-weight: bold;

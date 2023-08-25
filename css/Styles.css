@@ -1,4 +1,7 @@
 /* Global styles */
+.navbar{
+    background-color: #F1F3FF;
+}
 nav ul li a { 
     white-space: nowrap; 
   } 
